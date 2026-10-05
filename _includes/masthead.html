@@ -1,0 +1,22 @@
+<header class="masthead">
+  <nav class="masthead__inner-wrap" aria-label="Main navigation">
+    <a class="masthead__brand{% if page.url == '/' %} is-active{% endif %}" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>
+      <img class="masthead__logo" src="{{ '/assets/images/ntu_sentinels.avif' | relative_url }}" width="44" height="44" alt="" decoding="async">
+      <span>NTU Sentinels</span>
+    </a>
+
+    <button class="masthead__toggle" type="button" aria-controls="site-menu" aria-expanded="false" aria-label="Open menu">
+      <span class="masthead__toggle-line"></span>
+      <span class="masthead__toggle-line"></span>
+      <span class="masthead__toggle-line"></span>
+    </button>
+
+    <ul class="masthead__links" id="site-menu">
+      {% for link in site.data.navigation.main %}
+        <li>
+          <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} class="is-active" aria-current="page"{% endif %}>{{ link.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

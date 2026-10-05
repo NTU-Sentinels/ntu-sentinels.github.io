@@ -1,0 +1,51 @@
+title: NTU Sentinels
+description: NTU Sentinels cybersecurity club
+url: "https://ntusentinels.github.io"
+baseurl: ""
+repository: "ntusentinels/ntusentinels.github.io"
+timezone: Asia/Singapore
+
+markdown: kramdown
+permalink: pretty
+
+include:
+  - _pages
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - .sass-cache
+  - .ruby-lsp
+  - licenses
+
+keep_files:
+  - .git
+  - .svn
+
+# Plugins for GitHub Pages compatibility
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+
+whitelist:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default

@@ -1,0 +1,283 @@
+executive:
+  - id: 24
+    name: Mujahid Yang Iskandar
+    full_name: MUJAHID BIN YANG ISKANDAR
+    role: President
+    course: Y2, IEM
+    tagline: Live, Laugh, LoveNTUSentinels
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/mujahid-yang-iskandar-b2a5b5210
+        label: LinkedIn
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 13
+    name: Sandra Ngo
+    full_name: XIN SU SANDRA NGO
+    role: Vice-President
+    course: Y2, CSC
+    tagline: skibidi
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/sandra-pucaru
+        label: LinkedIn
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 22
+    name: Madhavan Negha
+    full_name: NEGHA MADHAVAN
+    role: Secretary General
+    course: Y2, ACF
+    tagline: I hope to Excel as your Secretary General
+    links: []
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 28
+    name: Jerald Yeo
+    full_name: SHAO JIE JERALD YEO
+    role: Tech Director
+    course: Y1, CE
+    tagline: life is short, we ball
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/jerald-yeo-3b2249235/
+        label: LinkedIn
+      - type: github
+        url: https://github.com/gcmaximus
+        label: GitHub
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 8
+    name: Jeren Suen
+    full_name: JEREN SUEN
+    role: External Liaison Director
+    course: Y1, CSC
+    tagline: I'll make it happen.
+    links: []
+    image: /assets/images/ntu_sentinels_transparent.png
+technical:
+  - id: 2
+    name: Jarrett Goh (Jarrettgxz)
+    full_name: JARRETT GOH
+    role: Training
+    course: Y3, CSC
+    tagline: Exploring the lines between hardware and software XD
+    links:
+      - type: github
+        url: https://github.com/Jarrettgohxz
+        label: GitHub
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 6
+    name: Nguyen Quang An
+    full_name: QUANG AN NGUYEN
+    role: Tech
+    course: Y2, CSC
+    tagline: tung tung tung sahuir
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/nguyen-quang-an/
+        label: LinkedIn
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 7
+    name: Lee Yan Yu
+    full_name: YAN YU LEE
+    role: Tech
+    course: Y1, EEE
+    tagline: When nothing goes right, go left.
+    links: []
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 9
+    name: Manan Sethia
+    full_name: MANAN SETHIA
+    role: Tech
+    course: Y1, CSC
+    tagline:
+      Through the Silk Road I have travelled, on a Green Camel, to the Pirate's
+      Bay, under the blanket of the Dark night with a Torch.
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/manan-sethia/
+        label: LinkedIn
+      - type: website
+        url: https://manansethia.com
+        label: Website
+    image: /assets/images/team/manan.avif
+  - id: 12
+    name: Kongpop Fuangfoo
+    full_name: KONGPOP FUANGFOO
+    role: Tech
+    course: Y1, IEM
+    tagline: flag{G1V3_1T_Y0UR_B3ST}
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/kongpop-fuangfoo-7831b236b/
+        label: LinkedIn
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 15
+    name: Jena Leanne Goh
+    full_name: JENA GOH
+    role: Tech / Training
+    course: Y2, EEE
+    tagline: i also really like blue teaming ^_^
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/jena-goh
+        label: LinkedIn
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 20
+    name: Pham Nguyen Vu Hoang
+    full_name: HOANG PHAM
+    role: Tech
+    course: Y4, CSC
+    tagline: Live, Larp, Love.
+    links: []
+    image: /assets/images/ntu_sentinels_transparent.png
+events:
+  - id: 4
+    name: Jeral Fong Jian Yuan
+    full_name: JIAN YUAN FONG
+    role: Events
+    course: Y4, CSC
+    tagline: Frost1432
+    links: []
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 5
+    name: Vivian Chua
+    full_name: CHUA VIVIAN SIEW YAN
+    role: Events
+    course: Y1, CSC
+    tagline: Slayyy
+    links: []
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 11
+    name: Elton Tay
+    full_name: ELTON CHEE HEAN TAY
+    role: Events
+    course: Y1, CSC
+    tagline: Professional Script Kiddie
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/elton-taych/
+        label: LinkedIn
+      - type: website
+        url: https://eltontay.com
+        label: Website
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 14
+    name: Sathyamoorthi Hariprassanth
+    full_name: SATHYAMOORTHI HARIPRASSANTH
+    role: Events
+    course: Y1, EEE
+    tagline: Be strong enough to be gentle
+    links: []
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 16
+    name: Deng Lisiwei Julie
+    full_name: LISIWEI JULIE DENG
+    role: Events
+    course: Y2, CE
+    tagline: do it for the plot
+    links:
+      - type: linkedin
+        url: https://linkedin.com/in/juliedenglisiwei/
+        label: LinkedIn
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 23
+    name: Sundari Sivasankar
+    full_name: SIVAGNANA SUNDARI SIVASANKAR
+    role: Events
+    course: Y3, CSC
+    tagline: you miss all the shots you don't take
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/sundarisivasankar
+        label: LinkedIn
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 26
+    name: Lee Cheng Ze
+    full_name: CHENG ZE LEE
+    role: Events
+    course: Y2, CS
+    tagline: Code. Secure. Connect
+    links: []
+    image: /assets/images/ntu_sentinels_transparent.png
+liaison:
+  - id: 10
+    name: Mahi Ashok Motiramani
+    full_name: MAHI ASHOK MOTIRAMANI
+    role: Liaison
+    course: Y1, CE
+    tagline: Go with the flow
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/mahi-motiramani-049984405?utm_source=share_via&utm_content=profile&utm_medium=member_ios
+        label: LinkedIn
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 17
+    name: Duong Kien Khai
+    full_name: KIEN KHAI DUONG
+    role: Liaison
+    course: Y2, CSC
+    tagline: I'd love to secure our partnership
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/kien-khai-duong/
+        label: LinkedIn
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 18
+    name: Aafia Abbas
+    full_name: AAFIA ABBAS
+    role: Operations & Affairs
+    course: Y2, ACBS
+    tagline: Slow and steady wins the race
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/aafiaabbas/
+        label: LinkedIn
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 19
+    name: How Wei Inn Justin
+    full_name: WEI INN JUSTIN HOW
+    role: Liaison / Ops
+    course: Y1, CSC
+    tagline: I wanna travel the seven seas to see what the world can offer.
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/justin-how-291155241
+        label: LinkedIn
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 25
+    name: Thirumalaisamy Levestri
+    full_name: LEVESTRI THIRUMALAISAMY
+    role: Admin & Liaison
+    course: Y1, CE
+    tagline: Just tryna have some fun!
+    links: []
+    image: /assets/images/ntu_sentinels_transparent.png
+publicity:
+  - id: 3
+    name: Muhammad Izzuddin Bin Husein
+    full_name: MUHAMMAD IZZUDDIN BIN HUSEIN
+    role: Publicity
+    course: Y3, CS
+    tagline: ""
+    links: []
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 21
+    name: Potti Hasmita
+    full_name: HASMITA POTTI
+    role: Publicity
+    course: Y2, CSC
+    tagline: Chaos but make it aesthetic
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/hasmita-potti
+        label: LinkedIn
+    image: /assets/images/ntu_sentinels_transparent.png
+  - id: 27
+    name: Valery Tan
+    full_name: YI JING VALERY TAN
+    role: Publicity
+    course: Y1, CSC
+    tagline: I am cyber biggest diva
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/tan-yi-jing-valery-?utm_source=share_via&utm_content=profile&utm_medium=member_ios
+        label: LinkedIn
+    image: /assets/images/ntu_sentinels_transparent.png
