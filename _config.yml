@@ -1,8 +1,8 @@
 title: NTU Sentinels
 description: NTU Sentinels cybersecurity club
-url: "https://ntusentinels.github.io"
+url: "https://ntu-sentinels.github.io"
 baseurl: ""
-repository: "ntusentinels/ntusentinels.github.io"
+repository: "NTU-Sentinels/ntu-sentinels.github.io"
 timezone: Asia/Singapore
 
 markdown: kramdown
