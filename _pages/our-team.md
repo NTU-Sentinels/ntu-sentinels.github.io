@@ -10,16 +10,16 @@ permalink: /our-team/
     <p class="team-hero__subtitle">
       Meet the students driving cybersecurity excellence, technical training, CTF competitions, and industry collaborations at Nanyang Technological University.
     </p>
-
-    <!-- Subcommittee Quick Navigation -->
-    <nav class="team-nav" aria-label="Subcommittees navigation">
-      <a href="#executive" class="team-nav__pill team-nav__pill--executive">Executive Committee</a>
-      <a href="#technical" class="team-nav__pill team-nav__pill--technical">Technical &amp; Training</a>
-      <a href="#events" class="team-nav__pill team-nav__pill--events">Events</a>
-      <a href="#liaison" class="team-nav__pill team-nav__pill--liaison">External Liaison &amp; Operations</a>
-      <a href="#publicity" class="team-nav__pill team-nav__pill--publicity">Publicity</a>
-    </nav>
   </header>
+
+  <!-- Subcommittee Quick Navigation -->
+  <nav class="team-nav" aria-label="Subcommittees navigation">
+    <a href="#executive" class="team-nav__tab">Executive Committee</a>
+    <a href="#technical" class="team-nav__tab">Technical &amp; Training</a>
+    <a href="#events" class="team-nav__tab">Events</a>
+    <a href="#liaison" class="team-nav__tab">External Liaison &amp; Operations</a>
+    <a href="#publicity" class="team-nav__tab">Publicity</a>
+  </nav>
 
   <!-- Subcommittee Sections (Bifurcation) -->
   {% assign sections = "executive|Executive Committee|Leadership & Club Direction;;technical|Technical & Training|CTF Training, Workshops & Infrastructure;;events|Events|Club Activities, Hackathons & Socials;;liaison|External Liaison & Operations|Industry Partnerships, Sponsorships & Club Admin;;publicity|Publicity|Brand Presence, Social Media & Media Coverage" | split: ";;" %}
@@ -87,9 +87,63 @@ permalink: /our-team/
 
 <script>
   (function () {
+    function navOffset() {
+      var masthead = document.querySelector('.masthead');
+      var teamNav = document.querySelector('.team-nav');
+      return (masthead ? masthead.offsetHeight : 72) + (teamNav ? teamNav.offsetHeight : 0) + 24;
+    }
+
+    // Highlight the tab for the section currently under the sticky nav
+    function initTeamScrollSpy() {
+      var tabs = Array.from(document.querySelectorAll('.team-nav__tab'));
+      var sections = tabs.map(function (tab) {
+        return document.getElementById(tab.getAttribute('href').substring(1));
+      });
+      var ticking = false;
+      var current = null;
+
+      function update() {
+        ticking = false;
+        var line = navOffset() + 1;
+        var active = -1;
+        sections.forEach(function (section, i) {
+          if (section && section.getBoundingClientRect().top <= line) active = i;
+        });
+        if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) {
+          active = sections.length - 1;
+        }
+        if (active === current) return;
+        current = active;
+        tabs.forEach(function (tab, i) {
+          var isActive = i === active;
+          tab.classList.toggle('is-active', isActive);
+          if (isActive) {
+            tab.setAttribute('aria-current', 'location');
+          } else {
+            tab.removeAttribute('aria-current');
+          }
+        });
+        // Keep the active tab visible when the strip scrolls sideways on narrow screens
+        var nav = document.querySelector('.team-nav');
+        var activeTab = tabs[active];
+        if (nav && activeTab && nav.scrollWidth > nav.clientWidth) {
+          nav.scrollLeft = activeTab.offsetLeft - (nav.clientWidth - activeTab.offsetWidth) / 2;
+        }
+      }
+
+      window.addEventListener('scroll', function () {
+        if (!ticking) {
+          ticking = true;
+          requestAnimationFrame(update);
+        }
+      }, { passive: true });
+      window.addEventListener('resize', update);
+      update();
+    }
+
     function initTeamSmoothScroll() {
-      var pills = document.querySelectorAll('.team-nav__pill');
-      pills.forEach(function (link) {
+      var tabs = document.querySelectorAll('.team-nav__tab');
+      tabs.forEach(function (link) {
         var href = link.getAttribute('href');
         if (href && href.startsWith('#')) {
           link.setAttribute('data-target', href.substring(1));
@@ -102,8 +156,7 @@ permalink: /our-team/
           var target = document.getElementById(targetId);
           if (!target) return false;
 
-          var masthead = document.querySelector('.masthead');
-          var NAV_H = (masthead ? masthead.offsetHeight : 72) + 24;
+          var NAV_H = navOffset();
           var DURATION = 600;
           var startY = window.scrollY;
           var rawTop = target.getBoundingClientRect().top + window.scrollY;
@@ -128,10 +181,15 @@ permalink: /our-team/
       });
     }
 
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', initTeamSmoothScroll);
-    } else {
+    function init() {
       initTeamSmoothScroll();
+      initTeamScrollSpy();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
     }
   })();
 </script>
