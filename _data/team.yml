@@ -20,13 +20,21 @@ executive:
       - type: linkedin
         url: https://www.linkedin.com/in/sandra-pucaru
         label: LinkedIn
-    image: /assets/images/ntu_sentinels_transparent.png
+    image: /assets/images/team/SANDRA_NGO.jpeg
   - id: 22
     name: Madhavan Negha
     full_name: NEGHA MADHAVAN
     role: Secretary General
     course: Y2, ACF
     tagline: I hope to Excel as your Secretary General
+    links: []
+    image: /assets/images/team/NEGHA_MADHAVAN.jpg
+  - id: 30
+    name: James Megadyanto
+    full_name: JAMES MEGADYANTO
+    role: Treasurer
+    course: ""
+    tagline: ""
     links: []
     image: /assets/images/ntu_sentinels_transparent.png
   - id: 28
@@ -42,6 +50,25 @@ executive:
       - type: github
         url: https://github.com/gcmaximus
         label: GitHub
+    image: /assets/images/team/JERALD_YEO.jpg
+  - id: 2
+    name: Jarrett Goh (Jarrettgxz)
+    full_name: JARRETT GOH
+    role: Training Director
+    course: Y3, CSC
+    tagline: Exploring the lines between hardware and software XD
+    links:
+      - type: github
+        url: https://github.com/Jarrettgohxz
+        label: GitHub
+    image: /assets/images/team/JARRETT_GOH.jpg
+  - id: 29
+    name: Haribaskar Vibusha
+    full_name: HARIBASKAR VIBUSHA
+    role: Events Director
+    course: ""
+    tagline: ""
+    links: []
     image: /assets/images/ntu_sentinels_transparent.png
   - id: 8
     name: Jeren Suen
@@ -51,18 +78,29 @@ executive:
     tagline: I'll make it happen.
     links: []
     image: /assets/images/ntu_sentinels_transparent.png
-technical:
-  - id: 2
-    name: Jarrett Goh (Jarrettgxz)
-    full_name: JARRETT GOH
-    role: Training
-    course: Y3, CSC
-    tagline: Exploring the lines between hardware and software XD
+  - id: 19
+    name: How Wei Inn Justin
+    full_name: WEI INN JUSTIN HOW
+    role: Internal Liaison Director
+    course: Y1, CSC
+    tagline: I wanna travel the seven seas to see what the world can offer.
     links:
-      - type: github
-        url: https://github.com/Jarrettgohxz
-        label: GitHub
-    image: /assets/images/ntu_sentinels_transparent.png
+      - type: linkedin
+        url: https://www.linkedin.com/in/justin-how-291155241
+        label: LinkedIn
+    image: /assets/images/team/WEI_INN_JUSTIN_HOW.jpg
+  - id: 21
+    name: Potti Hasmita
+    full_name: HASMITA POTTI
+    role: Publicity Director
+    course: Y2, CSC
+    tagline: Chaos but make it aesthetic
+    links:
+      - type: linkedin
+        url: https://www.linkedin.com/in/hasmita-potti
+        label: LinkedIn
+    image: /assets/images/team/HASMITA_POTTI.jpg
+technical:
   - id: 6
     name: Nguyen Quang An
     full_name: QUANG AN NGUYEN
@@ -73,7 +111,7 @@ technical:
       - type: linkedin
         url: https://www.linkedin.com/in/nguyen-quang-an/
         label: LinkedIn
-    image: /assets/images/ntu_sentinels_transparent.png
+    image: /assets/images/team/QUANG_AN_NGUYEN.jpg
   - id: 7
     name: Lee Yan Yu
     full_name: YAN YU LEE
@@ -97,7 +135,7 @@ technical:
       - type: website
         url: https://manansethia.com
         label: Website
-    image: /assets/images/team/manan.avif
+    image: /assets/images/team/MANAN_SETHIA.avif
   - id: 12
     name: Kongpop Fuangfoo
     full_name: KONGPOP FUANGFOO
@@ -108,7 +146,7 @@ technical:
       - type: linkedin
         url: https://www.linkedin.com/in/kongpop-fuangfoo-7831b236b/
         label: LinkedIn
-    image: /assets/images/ntu_sentinels_transparent.png
+    image: /assets/images/team/KONGPOP_FUANGFOO.jpeg
   - id: 15
     name: Jena Leanne Goh
     full_name: JENA GOH
@@ -158,7 +196,7 @@ events:
       - type: website
         url: https://eltontay.com
         label: Website
-    image: /assets/images/ntu_sentinels_transparent.png
+    image: /assets/images/team/ELTON_TAY.png
   - id: 14
     name: Sathyamoorthi Hariprassanth
     full_name: SATHYAMOORTHI HARIPRASSANTH
@@ -166,7 +204,7 @@ events:
     course: Y1, EEE
     tagline: Be strong enough to be gentle
     links: []
-    image: /assets/images/ntu_sentinels_transparent.png
+    image: /assets/images/team/SATHYAMOORTHI_HARIPRASSANTH.jpg
   - id: 16
     name: Deng Lisiwei Julie
     full_name: LISIWEI JULIE DENG
@@ -177,7 +215,7 @@ events:
       - type: linkedin
         url: https://linkedin.com/in/juliedenglisiwei/
         label: LinkedIn
-    image: /assets/images/ntu_sentinels_transparent.png
+    image: /assets/images/team/LISIWEI_JULIE_DENG.jpeg
   - id: 23
     name: Sundari Sivasankar
     full_name: SIVAGNANA SUNDARI SIVASANKAR
@@ -188,7 +226,7 @@ events:
       - type: linkedin
         url: https://www.linkedin.com/in/sundarisivasankar
         label: LinkedIn
-    image: /assets/images/ntu_sentinels_transparent.png
+    image: /assets/images/team/SIVAGNANA_SUNDARI.jpg
   - id: 26
     name: Lee Cheng Ze
     full_name: CHENG ZE LEE
@@ -208,7 +246,7 @@ liaison:
       - type: linkedin
         url: https://www.linkedin.com/in/mahi-motiramani-049984405?utm_source=share_via&utm_content=profile&utm_medium=member_ios
         label: LinkedIn
-    image: /assets/images/ntu_sentinels_transparent.png
+    image: /assets/images/team/MAHI_ASHOK_MOTIRAMANI.jpg
   - id: 17
     name: Duong Kien Khai
     full_name: KIEN KHAI DUONG
@@ -219,7 +257,7 @@ liaison:
       - type: linkedin
         url: https://www.linkedin.com/in/kien-khai-duong/
         label: LinkedIn
-    image: /assets/images/ntu_sentinels_transparent.png
+    image: /assets/images/team/KIEN_KHAI_DUONG.JPG
   - id: 18
     name: Aafia Abbas
     full_name: AAFIA ABBAS
@@ -230,18 +268,7 @@ liaison:
       - type: linkedin
         url: https://www.linkedin.com/in/aafiaabbas/
         label: LinkedIn
-    image: /assets/images/ntu_sentinels_transparent.png
-  - id: 19
-    name: How Wei Inn Justin
-    full_name: WEI INN JUSTIN HOW
-    role: Liaison / Ops
-    course: Y1, CSC
-    tagline: I wanna travel the seven seas to see what the world can offer.
-    links:
-      - type: linkedin
-        url: https://www.linkedin.com/in/justin-how-291155241
-        label: LinkedIn
-    image: /assets/images/ntu_sentinels_transparent.png
+    image: /assets/images/team/AAFIA_ABBAS.jpeg
   - id: 25
     name: Thirumalaisamy Levestri
     full_name: LEVESTRI THIRUMALAISAMY
@@ -259,17 +286,6 @@ publicity:
     tagline: ""
     links: []
     image: /assets/images/ntu_sentinels_transparent.png
-  - id: 21
-    name: Potti Hasmita
-    full_name: HASMITA POTTI
-    role: Publicity
-    course: Y2, CSC
-    tagline: Chaos but make it aesthetic
-    links:
-      - type: linkedin
-        url: https://www.linkedin.com/in/hasmita-potti
-        label: LinkedIn
-    image: /assets/images/ntu_sentinels_transparent.png
   - id: 27
     name: Valery Tan
     full_name: YI JING VALERY TAN
@@ -280,4 +296,4 @@ publicity:
       - type: linkedin
         url: https://www.linkedin.com/in/tan-yi-jing-valery-?utm_source=share_via&utm_content=profile&utm_medium=member_ios
         label: LinkedIn
-    image: /assets/images/ntu_sentinels_transparent.png
+    image: /assets/images/team/VALERY_TAN.jpeg

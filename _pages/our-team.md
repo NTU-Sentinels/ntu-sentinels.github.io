@@ -17,12 +17,12 @@ permalink: /our-team/
     <a href="#executive" class="team-nav__tab">Executive Committee</a>
     <a href="#technical" class="team-nav__tab">Technical &amp; Training</a>
     <a href="#events" class="team-nav__tab">Events</a>
-    <a href="#liaison" class="team-nav__tab">External Liaison &amp; Operations</a>
+    <a href="#liaison" class="team-nav__tab">Liaison &amp; Operations</a>
     <a href="#publicity" class="team-nav__tab">Publicity</a>
   </nav>
 
   <!-- Subcommittee Sections (Bifurcation) -->
-  {% assign sections = "executive|Executive Committee|Leadership & Club Direction;;technical|Technical & Training|CTF Training, Workshops & Infrastructure;;events|Events|Club Activities, Hackathons & Socials;;liaison|External Liaison & Operations|Industry Partnerships, Sponsorships & Club Admin;;publicity|Publicity|Brand Presence, Social Media & Media Coverage" | split: ";;" %}
+  {% assign sections = "executive|Executive Committee|Leadership & Club Direction;;technical|Technical & Training|CTF Training, Workshops & Infrastructure;;events|Events|Club Activities, Hackathons & Socials;;liaison|Liaison & Operations|Industry Partnerships, Sponsorships & Club Admin;;publicity|Publicity|Brand Presence, Social Media & Media Coverage" | split: ";;" %}
 
   {% for sec in sections %}
     {% assign parts = sec | split: "|" %}
