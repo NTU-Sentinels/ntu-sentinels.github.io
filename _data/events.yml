@@ -1,0 +1,31 @@
+# Events shown on /events/, in display order.
+# image is optional: leave it out (or "") to show the club logo placeholder.
+- id: hack-it-thursday
+  title: Hack-It-Thursday
+  description: >-
+    Hack-It Thursdays is our hands-on learning series where members get to explore different areas 
+    of cybersecurity beyond the classroom. Through workshops, practical sessions, and guided activities, participants 
+    can pick up new skills, experiment with security tools, and get some hands-on experience with real-world cybersecurity 
+    concepts. 
+
+    Ranging from an introduction to Kali Linux, to hardware hacking, our workshops are catered to
+    anyone interested in acquiring knowledge and skills in cybersecurity!
+  image: /assets/images/events/hit.jpg
+- id: sentctf
+  title: SentCTF
+  description: >-
+    Initiated in 2026, SentCTF is NTU's first-ever Capture the Flag (CTF) competition, created to give students a 
+    beginner-friendly introduction to the world of CTFs. With close to 100 participants, 
+    the competition challenged students with hands-on cybersecurity puzzles across areas 
+    such as web exploitation, cryptography, forensics, reverse engineering, and binary exploitation. To help newcomers
+    get started, our CTF Bootcamp teaches fundamental concepts, essential tools, and basic skills you need to tackle
+    these challenges.
+
+    Whether you're completely new to CTFs or looking to test your skills, do look out for the annual SentCTF, join us
+    in flag hunting and make some new friends along the way!
+  image: /assets/images/events/sentctf.jpg
+- id: club-cohesion
+  title: Club Cohesion
+  description: >-
+    Is a club really a club without fun and bonding?
+  image: /assets/images/events/cohesion.jpg
