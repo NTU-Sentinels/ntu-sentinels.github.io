@@ -22,7 +22,7 @@ permalink: /
 ╚══════╝ ╚══════╝ ╚═╝  ╚═══╝    ╚═╝    ╚═╝ ╚═╝  ╚═══╝ ╚══════╝ ╚══════╝ ╚══════╝</pre>
 
     <div class="home-hero__visual">
-      <img src="{{ '/assets/images/hive_crt.png' | relative_url }}" alt="The Hive NTU with CRT effect" class="home-hero__hive" width="520" height="432" loading="eager" decoding="async">
+      <img src="{{ '/assets/images/lion.png' | relative_url }}" alt="Sentinels Lion" class="home-hero__hive" width="520" height="432" loading="eager" decoding="async">
     </div>
   </div>
 
