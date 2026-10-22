@@ -33,7 +33,7 @@ executive:
     name: James Megadyanto
     full_name: JAMES MEGADYANTO
     role: Treasurer
-    course: Y3, CS
+    course: Y3, CSC
     tagline: Treasuring the treasures of cybersecurity
     links: []
     image: /assets/images/team/JAMES.jpg
@@ -66,7 +66,7 @@ executive:
     name: Haribaskar Vibusha
     full_name: HARIBASKAR VIBUSHA
     role: Events Director
-    course: Y2, CS
+    course: Y2, CSC
     tagline: I say isok too much
     links: 
       - type: linkedin
@@ -236,7 +236,7 @@ events:
     name: Lee Cheng Ze
     full_name: CHENG ZE LEE
     role: Events
-    course: Y2, CS
+    course: Y2, CSC
     tagline: Code. Secure. Connect
     links: []
     image: /assets/images/ntu_sentinels_transparent.png
@@ -288,7 +288,7 @@ publicity:
     name: Muhammad Izzuddin Bin Husein
     full_name: MUHAMMAD IZZUDDIN BIN HUSEIN
     role: Publicity
-    course: Y3, CS
+    course: Y3, CSC
     tagline: ""
     links: []
     image: /assets/images/ntu_sentinels_transparent.png
