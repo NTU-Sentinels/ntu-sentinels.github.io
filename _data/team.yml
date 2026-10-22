@@ -33,10 +33,10 @@ executive:
     name: James Megadyanto
     full_name: JAMES MEGADYANTO
     role: Treasurer
-    course: ""
-    tagline: ""
+    course: Y3, CS
+    tagline: Treasuring the treasures of cybersecurity
     links: []
-    image: /assets/images/ntu_sentinels_transparent.png
+    image: /assets/images/team/JAMES.jpg
   - id: 28
     name: Jerald Yeo
     full_name: SHAO JIE JERALD YEO
@@ -66,10 +66,14 @@ executive:
     name: Haribaskar Vibusha
     full_name: HARIBASKAR VIBUSHA
     role: Events Director
-    course: ""
-    tagline: ""
-    links: []
-    image: /assets/images/ntu_sentinels_transparent.png
+    course: Y2, CS
+    tagline: I say isok too much
+    links: 
+      - type: linkedin
+        url: https://www.linkedin.com/in/vibusha-haribaskar-1bb9a8285
+        label: LinkedIn
+    image: /assets/images/team/VIBUSHA.jpg
+    focus: center 30%
   - id: 8
     name: Jeren Suen
     full_name: JEREN SUEN
@@ -136,6 +140,7 @@ technical:
         url: https://manansethia.com
         label: Website
     image: /assets/images/team/MANAN_SETHIA.avif
+    focus: center 70%
   - id: 12
     name: Kongpop Fuangfoo
     full_name: KONGPOP FUANGFOO
@@ -247,6 +252,7 @@ liaison:
         url: https://www.linkedin.com/in/mahi-motiramani-049984405?utm_source=share_via&utm_content=profile&utm_medium=member_ios
         label: LinkedIn
     image: /assets/images/team/MAHI_ASHOK_MOTIRAMANI.jpg
+    focus: center 10%
   - id: 17
     name: Duong Kien Khai
     full_name: KIEN KHAI DUONG
@@ -297,3 +303,4 @@ publicity:
         url: https://www.linkedin.com/in/tan-yi-jing-valery-?utm_source=share_via&utm_content=profile&utm_medium=member_ios
         label: LinkedIn
     image: /assets/images/team/VALERY_TAN.jpeg
+    focus: center 20%

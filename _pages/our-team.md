@@ -47,7 +47,7 @@ permalink: /our-team/
         {% for member in members %}
           <article class="team-member team-member--{{ sec_key }}">
             <div class="team-member__photo-wrap">
-              <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-member__photo" loading="lazy" decoding="async">
+              <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-member__photo"{% if member.focus %} style="object-position: {{ member.focus }}"{% endif %} loading="lazy" decoding="async">
             </div>
 
             <div class="team-member__content">
