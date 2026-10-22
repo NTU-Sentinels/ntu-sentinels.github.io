@@ -1,5 +1,5 @@
 # Events shown on /events/, in display order.
-# image is optional: leave it out (or "") to show the club logo placeholder.
+# images is a list of photos shown as a carousel; leave it empty ([]) to show the club logo placeholder.
 - id: hack-it-thursday
   title: Hack-It-Thursday
   description: >-
@@ -10,7 +10,10 @@
 
     Ranging from an introduction to Kali Linux, to hardware hacking, our workshops are catered to
     anyone interested in acquiring knowledge and skills in cybersecurity!
-  image: /assets/images/events/hit.jpg
+  images:
+    - /assets/images/events/hit-1.jpg
+    - /assets/images/events/hit-2.jpg
+    - /assets/images/events/hit-3.jpg
 - id: sentctf
   title: SentCTF
   description: >-
@@ -23,9 +26,15 @@
 
     Whether you're completely new to CTFs or looking to test your skills, do look out for the annual SentCTF, join us
     in flag hunting and make some new friends along the way!
-  image: /assets/images/events/sentctf.jpg
+  images:
+    - /assets/images/events/sentctf-1.jpg
+    - /assets/images/events/sentctf-2.jpg
+    - /assets/images/events/sentctf-3.jpg
 - id: club-cohesion
   title: Club Cohesion
   description: >-
     Is a club really a club without fun and bonding?
-  image: /assets/images/events/cohesion.jpg
+  images:
+    - /assets/images/events/cohesion-1.jpg
+    - /assets/images/events/cohesion-2.jpg
+    - /assets/images/events/cohesion-3.jpg
