@@ -1,9 +1,9 @@
 # Events shown on /events/, in display order.
 # images is a list of photos shown as a carousel; leave it empty ([]) to show the club logo placeholder.
 - id: hack-it-thursday
-  title: Hack-It-Thursday
+  title: Hack It Thursday
   description: >-
-    Hack-It Thursdays is our hands-on learning series where members get to explore different areas 
+    Hack It Thursday is our hands-on learning series where members get to explore different areas 
     of cybersecurity beyond the classroom. Through workshops, practical sessions, and guided activities, participants 
     can pick up new skills, experiment with security tools, and get some hands-on experience with real-world cybersecurity 
     concepts. 
