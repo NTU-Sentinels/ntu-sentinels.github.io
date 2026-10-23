@@ -12,9 +12,11 @@
     </button>
 
     <ul class="masthead__links" id="site-menu">
+      {% comment %} nav_url lets pages inside a section (e.g. a single resource) highlight that section's link {% endcomment %}
+      {% assign nav_url = page.nav_url | default: page.url %}
       {% for link in site.data.navigation.main %}
         <li>
-          <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} class="is-active" aria-current="page"{% endif %}>{{ link.title }}</a>
+          <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} class="is-active" aria-current="page"{% elsif nav_url == link.url %} class="is-active"{% endif %}>{{ link.title }}</a>
         </li>
       {% endfor %}
     </ul>

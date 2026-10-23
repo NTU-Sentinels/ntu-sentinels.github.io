@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{% assign words = content | number_of_words %}
+{% assign read_time = words | divided_by: 200 | at_least: 1 %}
+
+<article class="resource-article" aria-labelledby="resource-title">
+  <a class="resource-article__back" href="{{ '/resources/' | relative_url }}">&larr; All resources</a>
+
+  <header class="resource-article__header">
+    <h1 class="resource-article__title" id="resource-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="resource-article__desc">{{ page.description }}</p>
+    {% endif %}
+
+    <p class="resource-meta">
+      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%-d %b %Y' }}</time>
+      {% if page.category %}<span>{{ page.category }}</span>{% endif %}
+      <span>{{ read_time }} min read</span>
+      {% if page.author %}<span>By {{ page.author }}</span>{% endif %}
+    </p>
+
+    {% if page.tags.size > 0 %}
+      <ul class="resource-tags" aria-label="Tags">
+        {% for tag in page.tags %}
+          <li><a href="{{ '/resources/' | relative_url }}?tag={{ tag | url_encode }}">#{{ tag }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </header>
+
+  <div class="resource-article__body">
+    {{ content }}
+  </div>
+</article>

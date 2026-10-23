@@ -43,9 +43,20 @@ sass:
   sass_dir: _sass
   style: compressed
 
+collections:
+  resources:
+    output: true
+    permalink: /resources/:name/
+
 defaults:
   - scope:
       path: ""
       type: pages
     values:
       layout: default
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: resource
+      nav_url: /resources/
