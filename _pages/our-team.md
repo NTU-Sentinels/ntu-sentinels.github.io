@@ -22,7 +22,7 @@ permalink: /our-team/
   </nav>
 
   <!-- Subcommittee Sections (Bifurcation) -->
-  {% assign sections = "executive|Executive Committee|Leadership & Club Direction;;technical|Technical & Training|CTF Training, Workshops & Infrastructure;;events|Events|Club Activities, Hackathons & Socials;;liaison|Liaison & Operations|Industry Partnerships, Sponsorships & Club Admin;;publicity|Publicity|Brand Presence, Social Media & Media Coverage" | split: ";;" %}
+  {% assign sections = "executive|Executive Committee|Bringing all subcommittees together, and steering the club's direction.;;technical|Technical & Training|Keeping events glitch-free, and hosting technical workshops and competitions.;;events|Events|Making our gatherings unforgettable, from planning to execution.;;liaison|Liaison & Operations|Managing club relations internally and externally.;;publicity|Publicity|Running our socials, capturing event highlights, and designing cool club content." | split: ";;" %}
 
   {% for sec in sections %}
     {% assign parts = sec | split: "|" %}
@@ -35,12 +35,11 @@ permalink: /our-team/
       <div class="team-section__header">
         <div class="team-section__header-main">
           <div class="team-section__pill-group">
-            <span class="team-section__pill team-section__pill--{{ sec_key }}">{{ sec_title }}</span>
+            <h2 class="team-section__pill team-section__pill--{{ sec_key }}">{{ sec_title }}</h2>
             <span class="team-section__count">{{ members.size }} members</span>
           </div>
-          <h2 class="team-section__title">{{ sec_title }}</h2>
+          <p class="team-section__desc">{{ sec_desc }}</p>
         </div>
-        <p class="team-section__desc">{{ sec_desc }}</p>
       </div>
 
       <div class="team-grid">
