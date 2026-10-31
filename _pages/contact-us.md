@@ -20,7 +20,7 @@ permalink: /contact-us/
     </a>
 
     <a href="https://discord.com/invite/WP9faZEeRz" class="contact-card contact-card--discord" target="_blank" rel="noopener noreferrer" aria-label="Discord" title="Discord: NTU Sentinels">
-      <img src="{{ '/assets/images/contact/discord.png?v=2' | relative_url }}" alt="Discord ASCII Logo" class="contact-ascii-img" width="180" height="180" loading="eager" decoding="async">
+      <img src="{{ '/assets/images/contact/discord.png?v=3' | relative_url }}" alt="Discord ASCII Logo" class="contact-ascii-img" width="180" height="180" loading="eager" decoding="async">
     </a>
   </div>
 </section>
